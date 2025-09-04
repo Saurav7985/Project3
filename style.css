@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.main{
+    width: 100%;
+    background-color: #DEF86B;
+}
+.nav{
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+    justify-content: space-between;
+}
+.nav section { 
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    font-weight:200;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+.section2{
+    padding: 40px 65px;
+}
+
+.S1{
+    display: flex;
+font-size: 100px;
+line-height: 200px;
+justify-content: space-between;
+}
+.S1 h1{
+    line-gap-override:-3px ;
+}
+.video{
+    height: 80px;
+    width: 350px;
+    background-color: black;
+    border-radius:200px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-image: url(https://images.unsplash.com/photo-1748367139196-ce143047c06b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    padding: 5px;
+
+}
+.video .play{
+height: 100%;
+width: 70px;
+background-color: black;
+border-radius:100px;
+border: 3px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.play i{
+    font-size: 50px;
+    color: white;
+
+}
+
+.S2{
+        display: flex;
+font-size: 100px;
+line-height: 200px;
+justify-content: space-between;
+
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 80px;
+    margin-left: 200px;
+    font-size: 20px;
+    font-weight:200;
+}
+.section3{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    gap: 10px;
+}
+.section3 .folder1{
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.section3 .folder2{
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.section3 .line{
+    width: 950px;
+    height: 1px;
+    background-color: black;
+}
+
+.mainimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    margin-top: 150PX;
+    height: 800px;
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    background-image: url(https://images.unsplash.com/photo-1659728504500-64c4db4efed3?q=80&w=715&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    position: relative;
+}
+
+.playbutton{
+    position: absolute;
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 100px;
+    border: 3px solid #8b8787;
+    top: -50px;
+    right: 100px;
+}
+.playbutton i{
+    font-size: 40px;
+}
